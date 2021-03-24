@@ -1,7 +1,12 @@
 [flake 8]
 
+ignore = W191, W391
+
+extend-ignore = W191, W391
+
 exclude =
 	migrations,
 	__pycache__,
 	manage.py,
 	settings.py
+
