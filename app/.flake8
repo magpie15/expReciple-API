@@ -6,4 +6,4 @@ exclude =
 	manage.py,
 	settings.py
 
-ignore = W191, W292
+ignore = W191, W292, F401
